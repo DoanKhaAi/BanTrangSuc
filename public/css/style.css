@@ -1,0 +1,397 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root{
+    --maunen: rgb(11, 2, 46); 
+    --mauchu: rgb(231, 223, 223);
+    --mauchutrong: rgb(14, 15, 87);
+    --height-nav: 50px;
+}
+
+#header{
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+    top: 0;
+    font-family:Arial, Helvetica, sans-serif;
+    background-color:var(--maunen) ;
+    color: var(--mauchu);
+}
+#name-nav{
+    color:  #187c4e;
+    text-decoration: none;
+    font-size: 1.6rem;
+    font-weight: 600;
+    margin-right: 10px;
+}
+.d-flex i{
+    color: var(--mauchu);
+    font-size: 1.2rem;
+    margin-right: 0.5rem;
+    margin-top: 0.6rem;
+}
+.chuchay{
+    width: 100%;
+    background-color: #187c4e ;
+    color: rgb(218, 218, 6);
+    margin-top: 3rem;
+    font-size: 1rem;
+    height: 2rem;
+}
+
+.chuchay marquee{
+    line-height: 2rem;
+}
+.ten{
+    display: flex;
+    justify-content: space-between;
+}
+.icon-header a{
+    text-decoration: none;
+    color: var(--mauchu);
+}
+#search{
+    color: black;
+}
+/* Body=================================================== */
+.left{
+
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-right: 1px solid rgb(3, 3, 156);
+}
+.left a{
+    text-decoration: none;
+    color: rgb(6, 6, 141);
+}
+.left div{
+    margin-bottom: 5px;
+}
+#name{
+    padding-bottom: 20px;
+    font-size: 1.7rem;
+    font-weight: 600;
+    text-align: center;
+    color: #187c4e;
+}
+#subname{
+    font-size: 0.8rem;
+    text-align: center;
+    margin-top: -25px;
+    margin-bottom: 20px;
+    color:  #187c4e;
+}
+.left-tieude{
+    color: rgb(2, 2, 104);
+    font-weight: 500;
+}
+.right{
+    margin-top: 0.3rem; 
+    margin-bottom: 100px;
+}
+.slides{
+    z-index: -20;
+}
+.image-right{
+    width: 100%;
+    height: 500px;
+}
+.text-large-right{
+    margin: 30px 0;
+}
+.text-large-right, .text-large-right2{
+    padding-top: 1rem;
+    font-size: 1.6rem;
+    font-weight: 500;
+    color: var(--mauchutrong);
+}
+.list-image{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+.list-right{
+    width: 120px;
+    height: 120px;
+}
+.text-list-image{
+    font-size: 1.1rem;
+    font-weight: 480;
+    color: #0e5736;
+}
+.hinh_chuyen{
+    text-decoration: none;
+}
+.news-content{
+    padding: 22px;
+    font-size: 1rem;
+    text-align: justify;
+    color: var(--mauchutrong);
+    font-weight: 480;
+}
+.gia{
+    margin: auto;
+    width: 80%;
+    
+}
+.table th{
+    color: #0e5736;
+}
+.table .bang1{
+    font-weight: 550;
+}
+.table .bang{
+    color:#0e5736;
+    font-weight: 490;
+}
+.table .le{
+    background-color: rgb(228, 238, 245);
+    color: var(--mauchutrong);
+}
+
+.sanpham-right{
+    margin-top: 50px;
+}
+.card{
+    border: 1px solid rgb(10, 10, 160) ;
+    margin-top: 1.8rem;
+}
+.card img{
+    border-bottom: 1px solid rgb(17, 17, 151) ;
+}
+.tensp{
+    font-size: 0.9rem;
+    font-weight: 480;
+    color: var(--mauchutrong);
+}
+.giasp{
+    font-size: 1.2rem;
+    font-weight: 500;
+    color:#187c4e;
+}
+.group-button{
+    display: flex;
+    justify-content: flex-end;
+}
+.group-button i{
+    font-size: 1.8rem;
+    margin-right: 1rem;
+    color: var(--maunen);
+    margin-top: 0.2rem;
+}
+.group-button button{
+    padding: 5px;
+    font-size: 0.9rem;
+    color: var(--mauchu);
+    background-color: var(--maunen);
+}
+.group-button button:hover{
+    color: var(--mauchu);
+    background-color:#187c4e;
+}
+.pagi{
+    margin-top: 3rem;
+    width: 100%;
+    display: flex;
+    justify-content: end;
+}
+/* Login & Register================================================================ */
+.back img{
+    z-index: -2000;
+    height: 56rem;
+}
+.back2 img{
+    z-index: -2000;
+    height: 38rem;
+}
+.khung_input, .back img, .back2 img{
+    width: 100% !important;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100%;
+}
+.khung_input{
+    height: 100vh;
+    z-index: 10;
+    position: absolute;
+    top:8rem;
+}
+
+.w-50 {
+    width: 30% !important;
+    position: absolute !important;
+}
+.w-50-2{
+    width: 32% !important;
+    position: absolute !important;
+}
+.shadow{
+    border: 2px solid cadetblue !important;
+    border-radius: 10px !important;
+    backdrop-filter: blur(20px);
+    top: 120px;
+    left: 35%;
+}
+.form-label{
+    font-weight: 700;
+}
+.btn-primary{
+    background-color: #426EB4 !important;
+    border: none !important;
+    width: 120px !important;
+}
+.nhapsai{
+    width: 100%;
+    color: red;
+    font-size: small;
+    height: 20px;
+}
+
+.register_success{
+    padding: 16rem 0;
+    text-align: center;
+}
+.register_success h1{
+    color: var(--mauchutrong) ;
+}
+.register_success h3{
+    color: #0e5736;
+}
+.register_success a{
+    font-size: 2rem;
+}
+
+@media only screen and (max-width:600px){
+    .w-50{
+        width: 100% !important;
+        left: 0 !important;
+    }
+}
+/* Info */
+.body-info{
+    width: 40%;
+    margin-right: 30%;
+    
+    font-size: 1rem;
+    font-weight: 700;
+    color: var(--maunen);
+    border: 1px solid rgb(12, 12, 133);
+}
+.body-info i{
+    font-size: 3rem;
+}
+.chuto{
+    font-size: 2rem;
+}
+.body-info .row{
+    margin: 2rem;
+}
+.khung{
+    z-index: 10;
+    position: absolute;
+    top:8rem;
+}
+.info-img{
+    width: 100% ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.change-pass{
+    margin-left: 60%;
+    width: 10rem;
+    margin-bottom: 2rem;
+    border: 1px solid rgb(2, 2, 29);
+    border-radius: 5px;
+    text-align: center;
+    background-color: rgb(163, 161, 161);
+}
+.change-pass a{
+    text-decoration: none;
+    padding: 2rem 0;
+    color: rgb(8, 30, 129);
+    font-size: 1.2rem;
+}
+#phai{
+    float: right;
+}
+.no-finding{
+    padding: 9rem;
+    text-align: center;
+    background-color: rgb(236, 232, 232);
+}
+.no-finding h4{
+    color: rgb(146, 146, 8);
+}
+.no-finding h5{
+    color: #0e5736;
+}
+/* Users =============================================================*/
+
+.nguoidung{
+    width: 80%;
+    margin: auto;
+    margin-bottom: 5rem;
+}
+.nguoidung2{
+    margin: auto;
+    text-align: center;
+    width: 100%;
+}
+.nguoidung .form-nguoidung{
+    width: 60%;
+    margin: auto;
+}
+.form-nguoidung label{
+    font-weight: 600;
+    font-size: 1rem;
+    color:#0e5736;
+}
+.form-nguoidung input{
+    width: 15rem;
+}
+.form-nguoidung button{
+    padding: 0 1.8rem;
+    font-weight: 600;
+    background-color: #0e5736;
+    color: var(--mauchu);
+}
+.good{
+    width: 100%;
+    height: 2rem;
+    font-size: smaller;
+    color: green;
+    text-align: center;
+}
+
+/* Footer =====================================================================*/
+.footer{
+    padding: 50px;
+    background-color: var(--maunen);
+}
+#logo-footer{
+    font-size: 3rem;
+    font-weight: 600;
+    text-align: center;
+    color: #187c4e;
+}
+#subname-footer, #end{
+    font-size: 0.8rem;
+    text-align: center;
+    color: #187c4e;
+}
+.footer-content{
+    margin-top: 30px;
+    font-size: 0.9rem;
+    font-weight: 400;
+    color: var(--mauchu);
+}
+
+.footer i{
+    font-size: 1.0rem;
+    padding: 5px;
+    color: var(--mauchu);
+}
